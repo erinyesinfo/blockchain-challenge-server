@@ -1,0 +1,21 @@
+{
+  "name": "blockchain-challenge-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "erinyes",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.66.2",
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
